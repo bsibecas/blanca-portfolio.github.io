@@ -1,0 +1,49 @@
+/* styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 8, 47, 73; /* Sky-950 text */
+  --background-start-rgb: 243, 244, 246; /* Gray-100 */
+  --background-end-rgb: 243, 244, 246; /* Gray-100 */
+  --text-hover: 3, 105, 161; /* Gray-900 */
+  
+}
+
+.dark {
+  --foreground-rgb:  243, 244, 246; /* White text */
+  --background-start-rgb: 8, 47, 73; /* Gray-900 */
+  --background-end-rgb: 31, 41, 55; /* Gray-900 */
+  --text-hover: 254, 240, 138; /* Gray-300 */
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-start-rgb));
+  transition: color 0.2s ease-in-out, background 0.2s ease-in-out; /* Smooth transition */
+}
+
+/* Fixed reference to --text-hover */
+a:hover {
+  color: rgb(var(--text-hover)); /* Text color on hover */
+  text-decoration: underline; /* Underline on hover */
+}
+
+.animate-section {
+  opacity: 0;
+  transform: translateY(20px); /* Example: slide up animation */
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.animate-section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

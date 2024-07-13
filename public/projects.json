@@ -1,0 +1,44 @@
+[
+    {
+      "imageUrl": "ShareToGo-Presentation.png",
+      "projectName": "SHARE TO GO",
+      "projectDescription": "An app designed to facilitate car sharing for daily routes, promoting environmentally friendly travel.",
+      "projectDate": "2022-ACTUAL"
+    },
+    {
+      "imageUrl": "./WorkInProgress-Presentation.png",
+      "projectName": "WORK IN PROGRESS",
+      "projectDescription": "A 2D game that combines time and resource management with a touch of strategy, where you play as a new worker in a jewelry store.",
+      "projectDate": "2024"
+    },
+    {
+      "imageUrl": "Area-Presentation.png",
+      "projectName": "AREA",
+      "projectDescription": "In this project the user can create actions and reactions in an IFTTT manner, He will be able to do it in multiple services as Discord, Reddit...",
+      "projectDate": "2023"
+    },
+    {
+      "imageUrl": "Algorithmic-Presentation.png",
+      "projectName": "ALGORITHMIC",
+      "projectDescription": "Projects based on applied calculation, optimization, statistics, cyber security, graphics and project management. (Python, Problem solving)",
+      "projectDate": "2020-2023"
+    },
+    {
+      "imageUrl": "./Matchstick-Presentation.png",
+      "projectName": "MATCHSTICK",
+      "projectDescription": "Created a little game with an IA that wins almost every time in order to play against it. (C, Algorithm, Problem solving)",
+      "projectDate": "2021"
+    },
+    {
+      "imageUrl": "Sokoban-Presentation.png",
+      "projectName": "SOKOBAN",
+      "projectDescription": "This project is a game done without any graphic library. Sokoban japonese is a game where the goal is to push the boxes into their correct position.",
+      "projectDate": "2021"
+    },
+    {
+      "imageUrl": "Runner-Presentation.png",
+      "projectName": "RUNNER",
+      "projectDescription": "This project is a videogame that follows the Endless Running game rules where the goal is to avoid obstacles all along the game.",
+      "projectDate": "2021"
+    }
+  ]
