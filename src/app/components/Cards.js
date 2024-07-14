@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 
+
 export default function Card({ imageUrl, projectName, projectDescription, projectDate, projectUrl }) {
     const cardRef = useRef(null);
     const [isHovered, setIsHovered] = useState(false);
